@@ -3,7 +3,7 @@
 /* 
  * @site    QTPPhotography
  * @page    About Page
- * @author  @Jtran07 & PaperSpeaker
+ * @author  @Jtran07 & @PaperSpeaker
  * @date    Sepetember 6th, 2014
  * @version Version 1.0.0
  */
