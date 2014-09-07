@@ -12,13 +12,13 @@
 
 <html>
     <head>
-        <title>QTPPhotography</title> <!-- title of the current page -->
+        <title>Nature</title> <!-- title of the current page -->
     </head>
     
     <body>
         <div id="container"> <!-- open container div -->
             <div id="header"> <!-- open header div -->
-                <h1>Welcome to QTPPhotography</h1> <!-- h1 tag -->
+                <h1>Nature</h1> <!-- h1 tag -->
             </div> <!-- end header div -->
             <div id="menu"> <!-- menu div -->
                 <a href="about.php">About</a>
