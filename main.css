@@ -1,0 +1,98 @@
+/* CSS Document */
+/* 
+    Created on : 7-Sep-2014, 4:50:25 PM
+    Author     : JTran07 & PaperSpeaker
+*/
+
+html, body {
+	height: 100%;
+	margin: 0;
+	background-image: url("background.jpg");
+        color: #225578;
+}
+// ------------- header
+#header {
+    padding-left: 100px;
+    border: 1px solid #999;
+}
+// ------------- container
+#container {
+    margin: 30px;
+    border: 1px solid red;
+    
+}
+// ------------- content
+#content {
+    padding-left:5px;
+}
+// --------------- aside images facebook
+aside.facebook {
+	position: fixed;
+	top: 62%;
+	left: -225px;  /* position it off stage */
+}
+ 
+aside.facebook a {
+	display: block;
+	width: 260px;
+	//background-color: rgba(153, 153, 153, 0.7);
+        background-color: #202120;
+	padding: 15px;
+	height: 30px;
+	border:1px solid #666;
+	border-radius: 10px;
+	font: bold 18px Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	color: #225578;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	
+}
+
+aside.facebook a:hover {
+	transform: translate(220px);
+	-webkit-transform: translate(220px);
+	-moz-transform: translate(220px);
+}
+// --------------- aside images instagram
+aside.instagram {
+	position: fixed;
+	top: 70%;
+	left: -235px;  /* position it off stage */
+}
+
+aside.instagram a {
+	display: block;
+	width: 270px;
+	//background-color: rgba(153, 153, 153, 0.7);
+        background-color: #202120;
+	padding: 15px;
+	height: 30px;
+	border:1px solid #666;
+	border-radius: 10px;
+	font: bold 18px Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	color: #225578;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	
+}
+
+aside.instagram a:hover {
+	transform: translate(225px);
+	-webkit-transform: translate(225px);
+	-moz-transform: translate(225px);
+}
+
+aside img{
+	vertical-align: middle;  /* align text to middle of the image */
+}
+// ------------ footer
+#footer{
+    margin-top: 100px;
+    border-top: solid black 1px;
+    padding-left: 5px;
+    
+}
