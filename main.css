@@ -2,19 +2,44 @@
 /* 
     Created on : 7-Sep-2014, 4:50:25 PM
     Author     : JTran07 & PaperSpeaker
-Edited: Sept 12 by Aaron 
+Edited: Sept 29 by Jimmy
 */
 
 html, body {
 	height: 100%;
 	margin: 0;
-	background-image: url("background.jpg");
+	background-image: url("images/background.jpg");
         color: #225578;
 }
 
+a:link{
+    color:#dbdbd9;
+    font-size: 20px;
+ 
+}
+
+a:visited {
+    color:#869fbe;
+}
+
+a:hover{
+    color:#225578;
+}
 #header {
-    padding-left: 100px;
+    padding-left: 50px;
     border: 1px solid #999;
+    clear:both;
+}
+
+.menu{
+    clear:both;
+    float:right;
+    margin-top: -80px;
+    padding-right: 20px;
+}
+
+ul.menu li{
+    display: inline;
 }
 
 #container {
@@ -23,14 +48,70 @@ html, body {
     
 }
 
-#content {
+#sidenav {
+    border-right: 1px solid #008;
+   margin-right: 83%;
+   clear:both;
+   margin-top:50px;
+
+}
+
+#sidenav ul{
+    list-style-type: none;
+    clear:both;
+
+}
+
+
+#calender {
+    float:right;
+    margin-top: -19%;
+    padding-right: 20px;
+    
+}
+
+content {
+    clear:both;
+    
+}
+
+p {
+    clear:both;
     padding-left:5px;
 }
 
+/*
+gallery aka the top large image all this stuff determines size
+*/
+#banner {
+        clear:both;
+	width: 800px;
+	height: 334px;
+	overflow: hidden;
+	padding: 0;
+	border: 1px solid black;
+        margin-left: 23%;
+        margin-top: -15%;
+}
+
+#bannerthumbs {
+	margin-left: 37%;
+	padding: 0;
+   
+}
+/*
+determines spacing between each thumb
+*/
+#bannerthumbs li {
+	float: left;
+	list-style:none;
+	padding-right: 31px;
+}
+
+
 aside.facebook {
-	position: fixed;
-	top: 62%;
-	left: -225px;  /* position it off stage */
+
+	margin-left: -260px;  /* position it off stage */
 }
  
 aside.facebook a {
@@ -58,14 +139,13 @@ aside.facebook a:hover {
 }
 
 aside.instagram {
-	position: fixed;
-	top: 70%;
-	left: -235px;  /* position it off stage */
+
+	margin-left: -265px;  /* position it off stage */
 }
 
 aside.instagram a {
 	display: block;
-	width: 270px;
+	width: 265px;
 /*	background-color: rgba(153, 153, 153, 0.7);*/
         background-color: #202120;
 	padding: 15px;
@@ -95,5 +175,6 @@ aside img{
     margin-top: 100px;
     border-top: solid black 1px;
     padding-left: 5px;
+    padding-right: 5px;
     
 }
